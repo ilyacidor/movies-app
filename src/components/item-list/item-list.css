@@ -1,0 +1,12 @@
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+@media (max-width: 1009px) {
+
+    .movies-list {
+        gap: 16px; 
+    }
+}

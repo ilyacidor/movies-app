@@ -1,0 +1,12 @@
+.movie__genre {
+    color: #5c5656;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 16px;
+    padding: 4px; 
+    border: 1px solid #D9D9D9; 
+    background:  #FAFAFA;
+}
