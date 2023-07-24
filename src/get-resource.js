@@ -39,12 +39,4 @@ export default class GetResource {
   }
 
   debounceGetMovies = this.debounce(this.getMovies, 500)
-
-  getRatedMovies = async (id) => {
-    const res = await fetch(`https://api.themoviedb.org/3/movie/${id}`, options)
-    if (!res.ok) {
-      throw new Error(`Could not fetch, received ${res.status}`)
-    }
-    return await res.json()
-  }
 }
