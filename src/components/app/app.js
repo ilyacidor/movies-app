@@ -42,16 +42,6 @@ export default class App extends Component {
     this.setState({ error: true })
   }
 
-  debounce(fn, debounceTime) {
-    let timer
-    return function (...args) {
-      clearTimeout(timer)
-      timer = setTimeout(() => {
-        fn.apply(this, args)
-      }, debounceTime)
-    }
-  }
-
   shortTitle = (title) => {
     if (title.length > 26) {
       let str = title.slice(0, 26)
