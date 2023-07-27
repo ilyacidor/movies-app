@@ -1,4 +1,4 @@
 # movies-app
 
 Ссылка на приложение: 
-https://movies-9so8h2k4b-ilyacidor.vercel.app/
+https://movies-elguo4j81-ilyacidor.vercel.app/
